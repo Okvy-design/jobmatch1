@@ -1,0 +1,110 @@
+CRITICAL - 2025-01-08 15:46:58 --> ErrorException: Undefined property: stdClass::$nama_freelance
+[Method: GET, Route: freelancer/applied-job/detail/9]
+in APPPATH\Views\freelancer\applied\detail.php on line 47.
+ 1 APPPATH\Views\freelancer\applied\detail.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_freelance', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\applied\\detail.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\applied\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/applied/detail', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(29): view('freelancer/applied/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-08 16:04:08 --> ErrorException: Undefined array key "tanggal_upload"
+[Method: GET, Route: freelancer/finished]
+in APPPATH\Views\freelancer\finished.php on line 89.
+ 1 APPPATH\Views\freelancer\finished.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_upload"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/finished', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(37): view('freelancer/finished', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->finished()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-08 16:07:24 --> ErrorException: Undefined array key "tanggal_upload"
+[Method: GET, Route: freelancer/finished]
+in APPPATH\Views\freelancer\finished.php on line 94.
+ 1 APPPATH\Views\freelancer\finished.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_upload"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/finished', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(37): view('freelancer/finished', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->finished()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-08 16:07:25 --> ErrorException: Undefined array key "tanggal_upload"
+[Method: GET, Route: freelancer/finished]
+in APPPATH\Views\freelancer\finished.php on line 94.
+ 1 APPPATH\Views\freelancer\finished.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_upload"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/finished', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(37): view('freelancer/finished', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->finished()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-08 16:10:50 --> ErrorException: Undefined array key "tanggal_upload"
+[Method: GET, Route: freelancer/finished]
+in APPPATH\Views\freelancer\finished.php on line 94.
+ 1 APPPATH\Views\freelancer\finished.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_upload"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/finished', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(37): view('freelancer/finished', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->finished()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-08 16:10:51 --> ErrorException: Undefined array key "tanggal_upload"
+[Method: GET, Route: freelancer/finished]
+in APPPATH\Views\freelancer\finished.php on line 94.
+ 1 APPPATH\Views\freelancer\finished.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_upload"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/finished', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(37): view('freelancer/finished', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->finished()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-08 16:18:16 --> ErrorException: unlink(assets2/company1735747346_b632acba5159a8b31813.jpg): No such file or directory
+[Method: POST, Route: company/profile/update/7]
+in APPPATH\Controllers\Company.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets2/company1735747346_b632acba5159a8b31813.jpg): No such file or directory', 'C:\\xampp\\htdocs\\JobMatch\\app\\Controllers\\Company.php', 81)
+ 2 APPPATH\Controllers\Company.php(81): unlink('assets2/company1735747346_b632acba5159a8b31813.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Company->update('7')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-08 17:33:46 --> ErrorException: Trait "App\Controllers\Dompdf\Dompdf" not found
+[Method: GET, Route: company/job-apply/6/9]
+in APPPATH\Controllers\JobApply.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-08 17:38:59 --> ErrorException: Trait "Dompdf\Dompdf\Dompdf" not found
+[Method: GET, Route: company/job-apply/6/9]
+in APPPATH\Controllers\JobApply.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

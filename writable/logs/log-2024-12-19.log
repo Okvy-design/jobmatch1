@@ -1,0 +1,15 @@
+CRITICAL - 2024-12-19 05:03:52 --> ErrorException: Undefined property: stdClass::$nama_freelance
+[Method: GET, Route: freelancer/applied-job/detail/8]
+in APPPATH\Views\freelancer\applied\detail.php on line 47.
+ 1 APPPATH\Views\freelancer\applied\detail.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_freelance', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\applied\\detail.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\applied\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/applied/detail', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(31): view('freelancer/applied/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')

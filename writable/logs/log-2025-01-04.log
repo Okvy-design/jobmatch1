@@ -1,0 +1,48 @@
+CRITICAL - 2025-01-04 05:33:16 --> ErrorException: Undefined array key "payment_status"
+[Method: GET, Route: freelancer/finished]
+in APPPATH\Views\freelancer\finished.php on line 78.
+ 1 APPPATH\Views\freelancer\finished.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "payment_status"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php', 78)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\finished.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/finished', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(37): view('freelancer/finished', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->finished()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-04 05:51:02 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-04 05:51:33 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-04 05:54:09 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')

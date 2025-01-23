@@ -1,0 +1,84 @@
+CRITICAL - 2025-01-14 13:19:37 --> ErrorException: Undefined property: stdClass::$nama_freelance
+[Method: GET, Route: freelancer/applied-job/detail/9]
+in APPPATH\Views\freelancer\applied\detail.php on line 47.
+ 1 APPPATH\Views\freelancer\applied\detail.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_freelance', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\freelancer\\applied\\detail.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\freelancer\\applied\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/applied/detail', [], true)
+ 5 APPPATH\Controllers\AppliedJob.php(29): view('freelancer/applied/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-14 13:39:47 --> Error: Class "App\Controllers\Dompdf" not found
+[Method: GET, Route: company/job-payment/6/9]
+in APPPATH\Controllers\JobApply.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->jobPayment('6', '9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-14 13:59:40 --> Error: Class "Dompdf\Options" not found
+[Method: GET, Route: job-apply/cetak-pdf/6/9]
+in APPPATH\Controllers\JobApply.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->cetakPdf('6', '9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-14 14:10:37 --> Error: Class "Dompdf\Options" not found
+[Method: GET, Route: job-apply/cetak-pdf/6/9]
+in APPPATH\Controllers\JobApply.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->cetakPdf('6', '9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-14 15:03:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Payment/index.php"
+[Method: GET, Route: company/payment]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Payment/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Payment/index', [], true)
+ 3 APPPATH\Controllers\PaymentController.php(19): view('Payment/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-14 15:08:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Payment/index.php"
+[Method: GET, Route: company/payment]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Payment/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Payment/index', [], true)
+ 3 APPPATH\Controllers\PaymentController.php(19): view('Payment/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-14 15:09:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "payment/index.php"
+[Method: GET, Route: company/payment]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payment/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('payment/index', [], true)
+ 3 APPPATH\Controllers\PaymentController.php(19): view('payment/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')

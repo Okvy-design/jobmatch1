@@ -1,0 +1,114 @@
+CRITICAL - 2024-12-08 05:14:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: freelancer/profile/edit]
+in APPPATH\Views\freelancer\edit.php on line 63.
+ 1 APPPATH\Views\freelancer\edit.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\edit.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\freelancer\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/edit', [], true)
+ 5 APPPATH\Controllers\Freelancer.php(29): view('freelancer/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Freelancer->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Freelancer))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2024-12-08 05:37:55 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: admin/freelancer]
+in APPPATH\Views\admin\master\freelance.php on line 47.
+ 1 APPPATH\Views\admin\master\freelance.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/master/freelance', [], true)
+ 5 APPPATH\Controllers\Admin.php(50): view('admin/master/freelance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->freelancer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2024-12-08 05:38:00 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: admin/freelancer]
+in APPPATH\Views\admin\master\freelance.php on line 47.
+ 1 APPPATH\Views\admin\master\freelance.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/master/freelance', [], true)
+ 5 APPPATH\Controllers\Admin.php(50): view('admin/master/freelance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->freelancer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2024-12-08 05:47:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/freelance.php"
+[Method: GET, Route: admin/freelancer]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/freelance.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/freelance', [], true)
+ 3 APPPATH\Controllers\Admin.php(50): view('admin/freelance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->freelancer()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2024-12-08 05:48:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/freelance.php"
+[Method: GET, Route: admin/freelancer]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/freelance.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/freelance', [], true)
+ 3 APPPATH\Controllers\Admin.php(50): view('admin/freelance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->freelancer()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2024-12-08 05:48:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/freelance.php"
+[Method: GET, Route: admin/freelancer]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/freelance.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/freelance', [], true)
+ 3 APPPATH\Controllers\Admin.php(50): view('admin/freelance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->freelancer()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2024-12-08 06:07:08 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: admin/freelancer]
+in APPPATH\Views\admin\master\freelance.php on line 47.
+ 1 APPPATH\Views\admin\master\freelance.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/master/freelance', [], true)
+ 5 APPPATH\Controllers\Admin.php(51): view('admin/master/freelance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->freelancer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2024-12-08 06:07:09 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: admin/freelancer]
+in APPPATH\Views\admin\master\freelance.php on line 47.
+ 1 APPPATH\Views\admin\master\freelance.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch\\app\\Views\\admin\\master\\freelance.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/master/freelance', [], true)
+ 5 APPPATH\Controllers\Admin.php(51): view('admin/master/freelance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->freelancer()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')

@@ -1,0 +1,124 @@
+CRITICAL - 2025-01-20 14:05:20 --> Error: Call to undefined function App\Models\encrypt()
+[Method: POST, Route: company/profile/update/7]
+in APPPATH\Models\CompanyProfileModel.php on line 20.
+ 1 SYSTEMPATH\BaseModel.php(1698): App\Models\CompanyProfileModel->encryptData([...])
+ 2 SYSTEMPATH\BaseModel.php(1022): CodeIgniter\BaseModel->trigger('beforeUpdate', [...])
+ 3 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Company.php(94): CodeIgniter\Model->update('7', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Company->update('7')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:19:28 --> ArgumentCountError: Too few arguments to function App\Controllers\JobApply::cetakPdf(), 1 passed in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: company/payment/print/9]
+in APPPATH\Controllers\JobApply.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->cetakPdf('9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:49:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "company/payment/print.php"
+[Method: GET, Route: company/payment/print/9]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/payment/print.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('company/payment/print', [], true)
+ 3 APPPATH\Controllers\PaymentController.php(37): view('company/payment/print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:49:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "company/payment/print.php"
+[Method: GET, Route: company/payment/print/9]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('company/payment/print.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('company/payment/print', [], true)
+ 3 APPPATH\Controllers\PaymentController.php(37): view('company/payment/print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:51:20 --> ErrorException: Undefined array key "nama_perusahaan"
+[Method: GET, Route: company/payment/print/9]
+in APPPATH\Views\company\payment\print.php on line 23.
+ 1 APPPATH\Views\company\payment\print.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_perusahaan"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\company\\payment\\print.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\company\\payment\\print.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('company/payment/print', [], true)
+ 5 APPPATH\Controllers\PaymentController.php(37): view('company/payment/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:51:46 --> ErrorException: Undefined array key "nama_perusahaan"
+[Method: GET, Route: company/payment/print/9]
+in APPPATH\Views\company\payment\print.php on line 23.
+ 1 APPPATH\Views\company\payment\print.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_perusahaan"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\company\\payment\\print.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\company\\payment\\print.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('company/payment/print', [], true)
+ 5 APPPATH\Controllers\PaymentController.php(37): view('company/payment/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:55:56 --> ErrorException: Undefined array key "nama_perusahaan"
+[Method: GET, Route: company/payment/print/9]
+in APPPATH\Controllers\PaymentController.php on line 38.
+ 1 APPPATH\Controllers\PaymentController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_perusahaan"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Controllers\\PaymentController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:57:51 --> ErrorException: Undefined array key "nama_perusahaan"
+[Method: GET, Route: company/payment/print/9]
+in APPPATH\Controllers\PaymentController.php on line 38.
+ 1 APPPATH\Controllers\PaymentController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_perusahaan"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Controllers\\PaymentController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 17:59:00 --> ErrorException: Undefined array key "nama_perusahaan"
+[Method: GET, Route: company/payment/print/9]
+in APPPATH\Controllers\PaymentController.php on line 38.
+ 1 APPPATH\Controllers\PaymentController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_perusahaan"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Controllers\\PaymentController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-20 18:05:40 --> ErrorException: Undefined array key "nama_perusahaan"
+[Method: GET, Route: company/payment/print/9]
+in APPPATH\Controllers\PaymentController.php on line 38.
+ 1 APPPATH\Controllers\PaymentController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_perusahaan"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Controllers\\PaymentController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->print('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')

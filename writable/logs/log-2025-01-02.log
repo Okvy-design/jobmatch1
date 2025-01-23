@@ -1,0 +1,189 @@
+CRITICAL - 2025-01-02 04:30:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/main.php"
+[Method: GET, Route: freelancer/finished]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/finished', [], true)
+ 4 APPPATH\Controllers\AppliedJob.php(38): view('freelancer/finished', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AppliedJob->finished()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AppliedJob))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:48:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Controllers\JobApply.php on line 47.
+ 1 APPPATH\Controllers\JobApply.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\JobMatch\\app\\Controllers\\JobApply.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:49:30 --> ErrorException: Undefined variable $data
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Controllers\JobApply.php on line 47.
+ 1 APPPATH\Controllers\JobApply.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\JobMatch\\app\\Controllers\\JobApply.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:49:38 --> ErrorException: Undefined variable $data
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Controllers\JobApply.php on line 47.
+ 1 APPPATH\Controllers\JobApply.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\JobMatch\\app\\Controllers\\JobApply.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:54:23 --> ErrorException: Undefined variable $data
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Controllers\JobApply.php on line 47.
+ 1 APPPATH\Controllers\JobApply.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\JobMatch\\app\\Controllers\\JobApply.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:57:00 --> Error: Class "App\Controllers\JobApplyModel" not found
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Controllers\JobApply.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:57:03 --> Error: Class "App\Controllers\JobApplyModel" not found
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Controllers\JobApply.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:59:17 --> BadMethodCallException: Call to undefined method App\Models\ApplicantModel::getApplicantByJobId
+[Method: GET, Route: company/job-apply/detail/6]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JobApply.php(62): CodeIgniter\Model->__call('getApplicantByJobId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 05:59:18 --> BadMethodCallException: Call to undefined method App\Models\ApplicantModel::getApplicantByJobId
+[Method: GET, Route: company/job-apply/detail/6]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JobApply.php(62): CodeIgniter\Model->__call('getApplicantByJobId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:03:56 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:03:57 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:05:04 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:06:46 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:08:24 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:12:33 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:19:15 --> ErrorException: unlink(assets2/company1735747346_b632acba5159a8b31813.jpg): No such file or directory
+[Method: POST, Route: company/profile/update/7]
+in APPPATH\Controllers\Company.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets2/company1735747346_b632acba5159a8b31813.jpg): No such file or directory', 'C:\\xampp\\htdocs\\JobMatch\\app\\Controllers\\Company.php', 81)
+ 2 APPPATH\Controllers\Company.php(81): unlink('assets2/company1735747346_b632acba5159a8b31813.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Company->update('7')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')
+CRITICAL - 2025-01-02 06:20:29 --> Error: Call to a member function getApplicantDetails() on null
+[Method: GET, Route: company/job-apply/detail/6]
+in APPPATH\Models\ApplicantModel.php on line 51.
+ 1 APPPATH\Controllers\JobApply.php(62): App\Models\ApplicantModel->getApplicantByJobId('6')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JobApply->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobApply))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch\\public\\index.php')

@@ -1,0 +1,567 @@
+CRITICAL - 2025-01-17 02:37:08 --> ErrorException: Undefined variable $transaksi
+[Method: GET, Route: admin/transaksi]
+in APPPATH\Views\admin\transaksi.php on line 42.
+ 1 APPPATH\Views\admin\transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/transaksi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 02:42:34 --> ErrorException: Undefined variable $transaksi
+[Method: GET, Route: admin/transaksi]
+in APPPATH\Views\admin\transaksi.php on line 42.
+ 1 APPPATH\Views\admin\transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/transaksi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 02:43:53 --> ErrorException: Undefined variable $transaksi
+[Method: GET, Route: admin/transaksi]
+in APPPATH\Views\admin\transaksi.php on line 42.
+ 1 APPPATH\Views\admin\transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/transaksi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 02:47:31 --> ErrorException: Undefined variable $transaksi
+[Method: GET, Route: admin/transaksi]
+in APPPATH\Views\admin\transaksi.php on line 42.
+ 1 APPPATH\Views\admin\transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/transaksi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 02:52:56 --> ErrorException: Undefined variable $transaksi
+[Method: GET, Route: admin/transaksi]
+in APPPATH\Views\admin\transaksi.php on line 42.
+ 1 APPPATH\Views\admin\transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/transaksi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 02:57:45 --> ErrorException: Undefined variable $transaksi
+[Method: GET, Route: admin/transaksi]
+in APPPATH\Views\admin\transaksi.php on line 42.
+ 1 APPPATH\Views\admin\transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 5 APPPATH\Controllers\Admin.php(90): view('admin/transaksi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-17 03:19:31 --> mysqli_sql_exception: Unknown column 'transaction.job_id' in 'on clause' in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transac...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transac...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transac...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transac...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-17 03:19:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaction.job_id' in 'on clause'
+[Method: GET, Route: admin/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:19:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaction.job_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:19:31 --> [Caused by] mysqli_sql_exception: Unknown column 'transaction.job_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `transaction`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-17 03:24:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE) in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\PaymentController.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-17 03:24:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE)
+[Method: POST, Route: company/payment/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PaymentController.php(40): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:24:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084286_61590f95106f8645cb10.pdf\', \'bank_transfer\', \'pending\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084286_61590f95106f8645cb10.pdf\', \'bank_transfer\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PaymentController.php(40): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:24:46 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084286_61590f95106f8645cb10.pdf\', \'bank_transfer\', \'pending\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084286_61590f95106f8645cb10.pdf\', \'bank_transfer\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084286_61590f95106f8645cb10.pdf\', \'bank_transfer\', \'pending\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PaymentController.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-17 03:25:47 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\PaymentController.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-17 03:25:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: company/payment/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PaymentController.php(40): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:25:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084347_93dabd752fd82492da3d.pdf\', \'bank_transfer\', \'pending\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084347_93dabd752fd82492da3d.pdf\', \'bank_transfer\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PaymentController.php(40): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:25:47 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084347_93dabd752fd82492da3d.pdf\', \'bank_transfer\', \'pending\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084347_93dabd752fd82492da3d.pdf\', \'bank_transfer\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737084347_93dabd752fd82492da3d.pdf\', \'bank_transfer\', \'pending\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PaymentController.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:30:30 --> Error: Class "App\Controllers\JobModel" not found
+[Method: POST, Route: company/payment/store]
+in APPPATH\Controllers\PaymentController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:31:08 --> Error: Class "App\Controllers\JobModel" not found
+[Method: POST, Route: company/payment/store]
+in APPPATH\Controllers\PaymentController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-17 03:34:16 --> mysqli_sql_exception: Unknown column 'applicant.job_id' in 'on clause' in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transac...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transac...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transac...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transac...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-17 03:34:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'applicant.job_id' in 'on clause'
+[Method: GET, Route: admin/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:34:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'applicant.job_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 03:34:16 --> [Caused by] mysqli_sql_exception: Unknown column 'applicant.job_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`nota`, `transaction`.`status`, `jobs`.`title` as `project_name`, `company_profile`.`nama_perusahaan` as `company_name`, `users`.`email` as `freelancer_email`, `jobs`.`budget`
+FROM `transaction`
+JOIN `jobs` ON `jobs`.`job_id` = `applicant`.`job_id`
+JOIN `applicants` ON `applicants`.`job_id` = `jobs`.`job_id`
+JOIN `users` ON `users`.`id` = `applicants`.`freelancer_id`
+JOIN `company_profile` ON `company_profile`.`user_id` = `jobs`.`company_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(96): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->transaksi()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-17 06:19:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\PaymentController.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-17 06:19:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: company/payment/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PaymentController.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 06:19:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737094744_f9bb3c8a1ea307165bb7.pdf\', \'bank_transfer\', \'pending\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737094744_f9bb3c8a1ea307165bb7.pdf\', \'bank_transfer\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PaymentController.php(41): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 06:19:04 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`jobmatch`.`transaction`, CONSTRAINT `transaction_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737094744_f9bb3c8a1ea307165bb7.pdf\', \'bank_transfer\', \'pending\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737094744_f9bb3c8a1ea307165bb7.pdf\', \'bank_transfer\', \'pending\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (\'2025-01-17\', \'1737094744_f9bb3c8a1ea307165bb7.pdf\', \'bank_transfer\', \'pending\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaction` (`tanggal`, `nota`, `metode_bayar`, `status`) VALUES (:tanggal:, :nota:, :metode_bayar:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\PaymentController.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PaymentController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 06:34:47 --> BadMethodCallException: Call to undefined method App\Models\TransactionModel::updateStatus
+[Method: GET, Route: admin/transaksi/updateStatus/8]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin.php(106): CodeIgniter\Model->__call('updateStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateStatus('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 06:38:04 --> BadMethodCallException: Call to undefined method App\Models\TransactionModel::updateStatus
+[Method: GET, Route: admin/transaksi/updateStatus/8]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin.php(106): CodeIgniter\Model->__call('updateStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->UpdateStatus('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 06:39:55 --> BadMethodCallException: Call to undefined method App\Models\TransactionModel::updateStatus
+[Method: GET, Route: admin/transaksi/updateStatus/8]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin.php(106): CodeIgniter\Model->__call('updateStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateStatus('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 06:41:10 --> BadMethodCallException: Call to undefined method App\Models\TransactionModel::updateStatus
+[Method: GET, Route: admin/transaksi/updateStatus/8]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin.php(106): CodeIgniter\Model->__call('updateStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateStatus('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-17 06:42:28 --> BadMethodCallException: Call to undefined method App\Models\TransactionModel::updateStatus
+[Method: GET, Route: admin/transaksi/updateStatus/8]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin.php(106): CodeIgniter\Model->__call('updateStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateStatus('8')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')

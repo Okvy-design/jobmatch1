@@ -1,0 +1,573 @@
+CRITICAL - 2025-01-22 15:07:39 --> BadMethodCallException: Call to undefined method App\Models\TransactionModel::updateStatus
+[Method: GET, Route: admin/transaksi/updateStatus/9]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin.php(106): CodeIgniter\Model->__call('updateStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateStatus('9')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 15:57:13 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: admin/laporan/company]
+in APPPATH\Views\admin\laporan\company.php on line 38.
+ 1 APPPATH\Views\admin\laporan\company.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\company.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\company.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/laporan/company', [], true)
+ 5 APPPATH\Controllers\Laporan.php(23): view('admin/laporan/company', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->company()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:00:27 --> ErrorException: Undefined array key "nama_project"
+[Method: GET, Route: admin/laporan/transaksi]
+in APPPATH\Views\admin\laporan\transaksi.php on line 34.
+ 1 APPPATH\Views\admin\laporan\transaksi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_project"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/laporan/transaksi', [], true)
+ 5 APPPATH\Controllers\Laporan.php(30): view('admin/laporan/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:06:48 --> ErrorException: Undefined array key "project_name"
+[Method: GET, Route: admin/laporan/transaksi]
+in APPPATH\Views\admin\laporan\transaksi.php on line 36.
+ 1 APPPATH\Views\admin\laporan\transaksi.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "project_name"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/laporan/transaksi', [], true)
+ 5 APPPATH\Controllers\Laporan.php(30): view('admin/laporan/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:10:14 --> ErrorException: Undefined array key "project_name"
+[Method: GET, Route: admin/laporan/transaksi]
+in APPPATH\Views\admin\laporan\transaksi.php on line 36.
+ 1 APPPATH\Views\admin\laporan\transaksi.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "project_name"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/laporan/transaksi', [], true)
+ 5 APPPATH\Controllers\Laporan.php(30): view('admin/laporan/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-22 16:21:58 --> mysqli_sql_exception: Unknown column 'jobs.freelancer_id' in 'on clause' in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transac...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transac...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transac...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transac...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\app\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+#6 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+#7 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-22 16:21:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobs.freelancer_id' in 'on clause'
+[Method: GET, Route: admin/laporan/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`', [], false)
+ 2 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:21:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobs.freelancer_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`', [], false)
+ 4 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:21:58 --> [Caused by] mysqli_sql_exception: Unknown column 'jobs.freelancer_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`freelancer_id` = `users`.`id`', [], false)
+ 5 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-22 16:24:54 --> mysqli_sql_exception: Unknown column 'jobs.id' in 'on clause' in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transac...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transac...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transac...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transac...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\app\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+#6 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+#7 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-22 16:24:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobs.id' in 'on clause'
+[Method: GET, Route: admin/laporan/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`', [], false)
+ 2 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:24:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jobs.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`', [], false)
+ 4 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:24:54 --> [Caused by] mysqli_sql_exception: Unknown column 'jobs.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `jobs`.`id` = `users`.`id`', [], false)
+ 5 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-22 16:32:28 --> mysqli_sql_exception: Unknown column 'freelancer.users_id' in 'on clause' in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transac...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transac...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transac...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transac...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\app\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+#6 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+#7 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-22 16:32:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'freelancer.users_id' in 'on clause'
+[Method: GET, Route: admin/laporan/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', [], false)
+ 2 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:32:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'freelancer.users_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', [], false)
+ 4 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:32:28 --> [Caused by] mysqli_sql_exception: Unknown column 'freelancer.users_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', [], false)
+ 5 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-22 16:35:18 --> mysqli_sql_exception: Unknown column 'freelancer.users_id' in 'on clause' in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transac...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transac...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transac...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transac...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\app\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+#6 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+#7 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-22 16:35:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'freelancer.users_id' in 'on clause'
+[Method: GET, Route: admin/laporan/transaksi]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', [], false)
+ 2 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:35:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'freelancer.users_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', [], false)
+ 4 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:35:18 --> [Caused by] mysqli_sql_exception: Unknown column 'freelancer.users_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `transaction`.`kd_transaksi`, `transaction`.`tanggal`, `transaction`.`status`, `jobs`.`title` AS `project_name`, `jobs`.`budget`, `company_profile`.`nama_perusahaan` AS `company_name`, `users`.`email` AS `freelancer_email`
+FROM `transaction`
+LEFT JOIN `jobs` ON `transaction`.`job_id` = `jobs`.`job_id`
+LEFT JOIN `company_profile` ON `jobs`.`company_id` = `company_profile`.`user_id`
+LEFT JOIN `users` ON `freelancer`.`users_id` = `users`.`id`', [], false)
+ 5 APPPATH\Models\TransactionModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Laporan.php(29): App\Models\TransactionModel->getAllTransactions()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 16:39:20 --> ErrorException: Undefined array key "tanggal"
+[Method: GET, Route: admin/laporan/transaksi]
+in APPPATH\Views\admin\laporan\transaksi.php on line 40.
+ 1 APPPATH\Views\admin\laporan\transaksi.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/laporan/transaksi', [], true)
+ 5 APPPATH\Controllers\Laporan.php(37): view('admin/laporan/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->transaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 17:05:46 --> ErrorException: Undefined array key "username"
+[Method: POST, Route: admin/laporan/freelance/cetak]
+in APPPATH\Views\admin\laporan\cetak_freelance.php on line 35.
+ 1 APPPATH\Views\admin\laporan\cetak_freelance.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\cetak_freelance.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\cetak_freelance.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/laporan/cetak_freelance', [], true)
+ 5 APPPATH\Controllers\Laporan.php(56): view('admin/laporan/cetak_freelance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakFreelance()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 17:10:10 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: admin/laporan/freelance/cetak]
+in APPPATH\Views\admin\laporan\cetak_freelance.php on line 34.
+ 1 APPPATH\Views\admin\laporan\cetak_freelance.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\cetak_freelance.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\admin\\laporan\\cetak_freelance.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/laporan/cetak_freelance', [], true)
+ 5 APPPATH\Controllers\Laporan.php(59): view('admin/laporan/cetak_freelance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Laporan->cetakFreelance()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 18:11:51 --> ErrorException: Undefined variable $company
+[Method: GET, Route: freelancer/profile/edit]
+in APPPATH\Views\freelancer\edit.php on line 145.
+ 1 APPPATH\Views\freelancer\edit.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\freelancer\\edit.php', 145)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Views\\freelancer\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('freelancer/edit', [], true)
+ 5 APPPATH\Controllers\Freelancer.php(29): view('freelancer/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Freelancer->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Freelancer))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 18:24:47 --> ErrorException: unlink(assets2/company1731405140_9bdb0f68f7ba5f52b18e.png): No such file or directory
+[Method: POST, Route: company/publish-job/update/3]
+in APPPATH\Controllers\PublishJob.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets2/company1731405140_9bdb0f68f7ba5f52b18e.png): No such file or directory', 'C:\\xampp\\htdocs\\JobMatch_ecom\\app\\Controllers\\PublishJob.php', 97)
+ 2 APPPATH\Controllers\PublishJob.php(97): unlink('assets2/company1731405140_9bdb0f68f7ba5f52b18e.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PublishJob->update('3')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublishJob))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+ERROR - 2025-01-22 18:25:21 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`jobmatch`.`applicants`, CONSTRAINT `applicants_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`)) in C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\JobMatch_ecom\app\Controllers\PublishJob.php(117): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\PublishJob->delete('3')
+#8 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublishJob))
+#9 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\JobMatch_ecom\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\JobMatch_ecom\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-22 18:25:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`jobmatch`.`applicants`, CONSTRAINT `applicants_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`))
+[Method: GET, Route: company/publish-job/delete/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jobs`
+WHERE `job_id` IN :job_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\PublishJob.php(117): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PublishJob->delete('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublishJob))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 18:25:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`jobmatch`.`applicants`, CONSTRAINT `applicants_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jobs`
+WHERE `job_id` IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jobs`
+WHERE `job_id` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jobs`
+WHERE `job_id` IN :job_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\PublishJob.php(117): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PublishJob->delete('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublishJob))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
+CRITICAL - 2025-01-22 18:25:21 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`jobmatch`.`applicants`, CONSTRAINT `applicants_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `jobs` (`job_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('DELETE FROM `jobs`
+WHERE `job_id` IN (\'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jobs`
+WHERE `job_id` IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jobs`
+WHERE `job_id` IN (\'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jobs`
+WHERE `job_id` IN :job_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\PublishJob.php(117): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PublishJob->delete('3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublishJob))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\JobMatch_ecom\\public\\index.php')
