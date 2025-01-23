@@ -5,6 +5,8 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+$routes->setAutoRoute(true);
+
 $routes->get('/', 'Home::index');
 $routes->get('/cari-job', 'Home::cari_job');
 $routes->get('/apply/(:num)', 'Home::apply/$1', ['filter' => 'role:freelancer']);
